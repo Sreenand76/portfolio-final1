@@ -44,7 +44,7 @@ const ProjectCard = ({ project }) => {
   return (
     <ScrollReveal>
       <div className='flex flex-col items-center gap-8 md:flex-row md:gap-24 border-white  rounded-lg p-2'>
-       <a href={project.link}> <img src={project.image} alt={project.title} className='w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' /></a>
+       <a href={project.live_link}> <img src={project.image} alt={project.title} className='w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' /></a>
         <div className=''>
           <div className='flex flex-col gap-3'>
             <div className=' text-xl font-semibold flex gap-5 items-center'>{project.title}<a href={project.github_link}><BsGithub/></a></div>
