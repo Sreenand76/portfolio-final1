@@ -21,7 +21,7 @@ const Tech = () => {
         {skills.map(skill => (
           <motion.div
             key={skill.id}
-            className="flex flex-col text-gray-500 text-xs md:text-sm items-center justify-center py-4 px-4 lg:py-6 border border-gray-700 rounded hover:brightness-125 hover:text-white shadow-md hover:border-gray-200"
+            className="flex flex-col text-gray-500 text-xs md:text-sm items-center justify-center py-4 px-4 lg:py-6 border border-gray-700 rounded hover:brightness-125 hover:text-white shadow-md hover:border-gray-300"
             whileHover={{ scale: 1.02, y: -5 }} // Only parent hover effect
             transition={{ type: 'spring', stiffness: 300 }}
           >
